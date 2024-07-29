@@ -1,14 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # ---------------------------------------------------------------------------
-# CONFIDENTIAL INFORMATION: This software is the confidential and proprietary
-# information of Paramount Pictures Corporation (PPC).  This software may not
-# be used, disclosed, reproduced or distributed for any purpose without prior
-# written authorization and license from PPC. Reproduction of any section of
-# this software must include this legend and all copyright notices.
-#
-# Copyright 2023 (c) Paramount Pictures Corporation. All rights reserved.
-# ---------------------------------------------------------------------------
+
 """Lens kit for blender cameras."""
 
 bl_info = {
