@@ -5,7 +5,7 @@
 """Lens kit for blender cameras."""
 
 bl_info = {
-    "name": "AVST Lens Kit",
+    "name": "Lens Kit",
     "description": "Create/change the lens for a camera",
     "author": "Lisa Curtis Saunders",
     "blender": (3, 1, 0),
@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 class LensBase(bpy.types.Operator):
     _lens = 18
     bl_description = 'Create/change the camera to the specified lens'
-    bl_category = "AVST Lens Kit"
+    bl_category = "Lens Kit"
 
     def execute(self, context):
         logger.debug('setting lens to %s', self._lens)
@@ -114,8 +114,8 @@ class ADD_PT_panel(bpy.types.Panel):
     bl_idname = "ADD_PT_Panel"
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
-    bl_label = "AVST Lens Kit"
-    bl_category = "AVST"
+    bl_label = "Lens Kit"
+
 
     @classmethod
     def poll(cls, context):
